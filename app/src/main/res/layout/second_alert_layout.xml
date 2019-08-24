@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--<TextView-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="130dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:id="@+id/tv"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/download_file"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textSize="28dp"-->
+        <!--android:textStyle="bold">-->
+
+    <!--</TextView>-->
+
+
+
+
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_below="@id/tv"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:background="#000"-->
+        <!--android:orientation="horizontal"-->
+        <!--&gt;-->
+
+        <!--<Button-->
+            <!--android:id="@+id/download"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginStart="185dp"-->
+            <!--android:background="@drawable/button_bg"-->
+            <!--android:paddingHorizontal="30dp"-->
+            <!--android:text="Download"-->
+            <!--android:textColor="#FFF"-->
+            <!--android:textSize="18dp"-->
+            <!--android:textStyle="bold" />-->
+
+
+
+
+    <!--</RelativeLayout>-->
+
+
+<ListView
+    android:id="@+id/filelist_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</ListView>
+
+
+
+</RelativeLayout>
